@@ -11,7 +11,7 @@ const weatherApp = {
     container2: document.getElementById('container2'),
 
     // API Key
-    APIKey: '381f3c690d4600f1ce738449db2526d0',
+    APIKey: 'Your OpenWeather APi Key', // Replace with your OpenWeather API key
 
     // Event Listeners
     init: function () {
@@ -31,7 +31,7 @@ const weatherApp = {
     },
 
     fetchDateTime: async function (city) {
-        const apiKey = '381f3c690d4600f1ce738449db2526d0'; // Replace with your OpenWeather API key
+        const apiKey = 'Your OpenWeather APi Key'; // Replace with your OpenWeather API key
         const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
 
         try {
